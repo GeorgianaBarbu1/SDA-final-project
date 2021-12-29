@@ -1,0 +1,67 @@
+<img src="/assets/images/login.jpg" alt="" class="background-login" />
+<div class="container" [formGroup]="form">
+  <div class="row">
+    <div class="col-lg-12" id="main-div">
+      <h2>Inregistrare</h2>
+      <label for="">Nume de utilizator </label><br />
+      <input type="text" formControlName="username" /><br />
+      <mat-error
+        class="text-error"
+        *ngIf="
+          form.controls.username.hasError('required') &&
+          form.controls.username.dirty
+        "
+        >Va rugam sa completati field-ul curent!</mat-error
+      ><br />
+      <label for="">Adresa de mail</label> <br />
+      <input type="text" formControlName="email" /><br />
+      <mat-error
+        class="text-error"
+        *ngIf="
+          form.controls.email.hasError('email') && form.controls.email.dirty
+        "
+        >Adresa de mail nu este valida!</mat-error
+      ><br />
+      <label for="">Parola</label> <br />
+      <input type="password" formControlName="password" /><br />
+      <mat-error
+        class="text-error"
+        *ngIf="
+          form.controls.password.hasError('minlength') &&
+          form.controls.password.dirty
+        "
+        >Parola nu este valida!</mat-error
+      ><br />
+      <div class="input-container">
+        <label for="">Confirmare Parola</label>
+        <input type="password" formControlName="confirmPassword" />
+        <mat-error
+          class="text-error"
+          *ngIf="
+            form.controls.confirmPassword.hasError('minlength') &&
+            form.controls.confirmPassword.dirty
+          "
+          >Parola nu este valida!</mat-error
+        >
+
+        <mat-error
+          class="text-error"
+          *ngIf="
+            this.form.controls.password.value !==
+            this.form.controls.confirmPassword.value
+          "
+        >
+          Parolele nu coincid!</mat-error
+        >
+      </div>
+      <button
+        type="button"
+        class="btn btn-primary"
+        [disabled]="!checkPassword()"
+        (click)="onSubmit()"
+      >
+        CREARE CONT
+      </button>
+    </div>
+  </div>
+</div>

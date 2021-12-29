@@ -1,0 +1,23 @@
+<div class="main-container">
+  <div class="banner">
+    <img src="assets/images/b1.jpeg" alt="" class="imgAbout" />
+    <button [routerLink]="['/aboutUs']" class="btnAbout">Despre noi</button>
+  </div>
+
+  <h2>Selectati categoria dorita</h2>
+  <div class="container-fluid">
+    <div class="cards-container cards row">
+      <ng-container *ngFor="let subject of subjectsData">
+        <app-card-subject
+          class="col-2"
+          id="card"
+          [imgUrl]="subject.url"
+          [title]="subject.title"
+          (clickEvent)="handleSubjectEvent(subject.subjectKey)"
+        ></app-card-subject>
+      </ng-container>
+    </div>
+  </div>
+</div>
+
+<app-sponsored></app-sponsored>

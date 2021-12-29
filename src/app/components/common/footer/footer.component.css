@@ -1,0 +1,20 @@
+h6 {
+  color: black;
+  margin-bottom: 1.5rem;
+}
+a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+img {
+  margin-top: 1rem;
+  height: 40px;
+  cursor: pointer;
+}
+.footer {
+  background-color: #d4a171d3;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 0;
+}

@@ -1,0 +1,612 @@
+{
+  "privateLessons": [
+    {
+      "id": 1,
+      "name": "Adrian",
+      "subject": "Matematica",
+      "price": "80RON",
+      "description": " Mă numesc Alexandru Stefan, sunt student in anul 3 la Universitatea Politehnica din București si ofer de mai bine de 3 ani, pregătire particulară la matematica elevilor de gimnaziu.Ceea ce mă recomanda si ceea ce pot garanta, pe lângă cunoștințele concrete in materia predata este experiența in a forma o buna relație atât cu părinții, pentru a prioritiza transparenta si cooperarea, cat si cu elevii pentru a crea un mediu prietenos si motivant pentru învățare.Meditatiile se vor desfasura in semigrupe de 2-3 elevi de acelasi nivel.",
+      "details": "Meditatiile se vor desfasura la domiciliul elevului, iar durata sedintei este de 2 ore!",
+      "img": "assets/teachers/math1.jpg",
+      "key": "matematica"
+    },
+    {
+      "id": 2,
+      "name": "Toma",
+      "subject": "Matematica",
+      "price": "85RON",
+      "description": " Meditez intensiv la matematica pentru Bacalaureat si Evaluare Nationala ,orice nivel ,pentru promovarea cu succes a acestora!! Recuperare rapida si eficienta a materiei pentru trecerea cu succes a tezelor, corigentelor si a altor tipuri de examene!Rezultate excelente dupa o experienta de peste 25 de ani in domeniu. Se urmareste insusirea de catre elev a tuturor cunostintelor necesare trecerii cu succes a oricarei probe la matematica!Urmarim de asemenea familiarizarea elevului cu examenele si evaluarea permanenta a cunostintelor prin teste periodice date constant!",
+      "details": "Meditatiile se vor desfasura la domiciliul elevului, iar durata sedintei este de 2 ore!",
+      "img": "assets/teachers/math2.jpg",
+      "key": "matematica"
+    },
+    {
+      "id": 3,
+      "name": "Andreea",
+      "subject": "Matematica",
+      "price": "70RON",
+      "description": " Pregatesc studenti pentru trecerea examenelor sau a restantelor :ASE, Politehnica, Titu Maiorescu,Spiru Haret,Cantemir si alte facultati din tara.",
+      "details": "Meditatiile se vor desfasura la domiciliul elevului sau online, iar o sedinta este de 3 ore!",
+      "img": "assets/teachers/math3.jpg",
+      "key": "matematica"
+    },
+    {
+      "id": 4,
+      "name": "Cristina",
+      "subject": "Matematica",
+      "price": "90RON",
+      "description": " Sunt studenta in anul II la facultatea de Automatica si Calculatoare, Universitatea Politehnica Bucuresti. Ofer meditatii pentru clasa si pentru examenul de Bacalaureat la matematica, indiferent de profil. ",
+      "details": "Meditatiile se desfasoara fie in sistem online, fie fata in fata, la mine acasa.",
+      "img": "assets/teachers/math4.jpg",
+      "key": "matematica"
+    },
+    {
+      "id": 5,
+      "name": "Alin",
+      "subject": "Matematica",
+      "price": "85RON",
+      "description": " Profesor cu peste 30 de ani experienta, ofer meditatii la matematica pentru Teste Nationale, Bacalaureat si Admitere facultate ",
+      "details": "Meditatiile se desfasoara online sau la domiciliul meditatorului",
+      "img": "assets/teachers/math5.jpg",
+      "key": "matematica"
+    },
+    {
+      "id": 6,
+      "name": "Ioana",
+      "subject": "Matematica",
+      "price": "85RON",
+      "description": " Invata usor si cu placere matematica! Cu multa rabdare si intelegere, voi ajuta copilul dumneavoastra sa inteleaga, sa indrageasca matematica din scoala primara si generala (clasele I - VIII ).",
+      "details": "Meditatiile se desfasoara online sau la domiciliul meditatorului",
+      "img": "assets/teachers/math6.jpg",
+      "key": "matematica"
+    },
+    {
+      "id": 7,
+      "name": "Bianca",
+      "subject": "Matematica",
+      "price": "95RON",
+      "description": " Invata usor si cu placere matematica! Cu multa rabdare si intelegere, voi ajuta copilul dumneavoastra sa inteleaga, sa indrageasca matematica din scoala primara si generala (clasele I - VIII ).",
+      "details": "Meditatiile se desfasoara online sau la domiciliul meditatorului",
+      "img": "assets/teachers/math7.jpg",
+      "key": "matematica"
+    },
+    {
+      "id": 8,
+      "name": "Alexandra",
+      "subject": "Limba si literatura romana",
+      "price": "70RON",
+      "description": " Desfășor această activitate de aproximativ trei ani de zile și mărturisesc faptul că mă recomandă atât rezultatele anterioare (sunt dispus să ofer și referințe, în cazul în care acestea sunt necesare), cât și pasiunea mea pentru literatura română.",
+      "details": "Meditatiile se desfasoara online sau la domiciliul meditatorului",
+      "img": "assets/teachers/rom1.jpg",
+      "key": "romana"
+    },
+    {
+      "id": 9,
+      "name": "Alex",
+      "subject": "Limba si literatura romana",
+      "price": "75RON",
+      "description": "  Ofer meditații la limba română (mai ales pregătire pentru Bacalaureat și Evaluare națională (a VIII-a și a XII-a).",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului",
+      "img": "assets/teachers/rom2.jpg",
+      "key": "romana"
+    },
+    {
+      "id": 10,
+      "name": "Violeta",
+      "subject": "Limba si literatura romana",
+      "price": "70RON",
+      "description": "  Studentă a Facultății de Litere din cadrul Universității București, ofer meditații pentru limba și literatura română claselor I-VIII.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului",
+      "img": "assets/teachers/rom3.jpg",
+      "key": "romana"
+    },
+    {
+      "id": 11,
+      "name": "Alexandra",
+      "subject": "Limba si literatura romana",
+      "price": "70RON",
+      "description": " Ofer meditații la limba și literatura română începând de la ciclul primar până la cel liceal. În ceea ce privește trăsăturile mele de caracter sunt o fire comunicativă, răbdătoare cu tact pedagogic.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online",
+      "img": "assets/teachers/rom4.jpg",
+      "key": "romana"
+    },
+    {
+      "id": 12,
+      "name": "Andrei",
+      "subject": "Limba si literatura romana",
+      "price": "70RON",
+      "description": " Ofer meditatii la limba romana (fizic/online).",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1 ora si jumatate",
+      "img": "assets/teachers/rom5.jpg",
+      "key": "romana"
+    },
+    {
+      "id": 13,
+      "name": "Robert",
+      "subject": "Limba engleza",
+      "price": "70RON",
+      "description": " Ofer meditatii la limba engleza (fizic/online).",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1 ora si jumatate",
+      "img": "assets/teachers/english1.jpg",
+      "key": "engleza"
+    },
+    {
+      "id": 14,
+      "name": "Ana",
+      "subject": "Limba engleza",
+      "price": "80RON",
+      "description": "Dacă îți dorești să îl ajuți pe copilul tău să dezvăluie tainele limbii engleze sau să își aprofundeze cunoștințele deja dobândite, sunt aici ca să îl îndrum.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h",
+      "img": "assets/teachers/english2.jpg",
+      "key": "engleza"
+    },
+    {
+      "id": 15,
+      "name": "Laura",
+      "subject": "Limba engleza",
+      "price": "60RON",
+      "description": "I am a Certified English, French and Romanian teacher, with 25 years of teaching.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h",
+      "img": "assets/teachers/english3.jpg",
+      "key": "engleza"
+    },
+    {
+      "id": 16,
+      "name": "Carla",
+      "subject": "Limba engleza",
+      "price": "70RON",
+      "description": "Utilizând metode noi, captivante, de învățare, adaptate la nivelul elevului, rezultatele se vor vedea încă după primele ședințe.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h",
+      "img": "assets/teachers/english4.jpg",
+      "key": "engleza"
+    },
+    {
+      "id": 17,
+      "name": "Bogdan",
+      "subject": "Limba engleza",
+      "price": "70RON",
+      "description": "Va astept cu drag sa lucram impreuna, sunt o fire rabdatoare, perfectionista si va garantez rezultate imediate!",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 2h",
+      "img": "assets/teachers/english5.jpg",
+      "key": "engleza"
+    },
+    {
+      "id": 18,
+      "name": "Anne",
+      "subject": "Limba franceza",
+      "price": "90RON",
+      "description": "Va astept cu drag sa lucram impreuna, sunt o fire rabdatoare, perfectionista si va garantez rezultate imediate!",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 2h",
+      "img": "assets/teachers/french1.jpg",
+      "key": "franceza"
+    },
+    {
+      "id": 19,
+      "name": "Alessia",
+      "subject": "Limba franceza",
+      "price": "80RON",
+      "description": "Ofer meditatii la limba franceza, pentru orice nivel!",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h",
+      "img": "assets/teachers/french2.jpg",
+      "key": "franceza"
+    },
+    {
+      "id": 20,
+      "name": "Paul",
+      "subject": "Limba franceza",
+      "price": "75RON",
+      "description": "Ofer meditatii la limba franceza pe intelesul oricui!",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h",
+      "img": "assets/teachers/french3.jpg",
+      "key": "franceza"
+    },
+    {
+      "id": 21,
+      "name": "Rodica",
+      "subject": "Limba franceza",
+      "price": "75RON",
+      "description": "Profesor cu peste 15 ani de experienta, ofer meditatii la limba franceza pe intelesul tuturor!",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h",
+      "img": "assets/teachers/french4.jpg",
+      "key": "franceza"
+    },
+    {
+      "id": 22,
+      "name": "Claudiu",
+      "subject": "Limba franceza",
+      "price": "75RON",
+      "description": "Prima sedinta este gratuita, sa evaluez cunostintele elevului, iar apoi garantez ca toate cunostintele necesare vor fi invatate!",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h si jumatate.",
+      "img": "assets/teachers/french5.jpg",
+      "key": "franceza"
+    },
+    {
+      "id": 23,
+      "name": "Irene",
+      "subject": "Biologie",
+      "price": "100RON",
+      "description": "Ofer pregătire la Biologie Umană pentru admitere la UMF CAROL DAVILA sau la alte facultati cu profil medical.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h si jumatate.",
+      "img": "assets/teachers/biology1.jpg",
+      "key": "biologie"
+    },
+    {
+      "id": 24,
+      "name": "Lacramioara",
+      "subject": "Biologie",
+      "price": "100RON",
+      "description": "Studenta in cadrul FMF Oradea, ofer meditatii la biologie pentru admiterea la Facultatea de Medicina",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 1h si jumatate.",
+      "img": "assets/teachers/biology2.jpg",
+      "key": "biologie"
+    },
+    {
+      "id": 25,
+      "name": "Bianca",
+      "subject": "Biologie",
+      "price": "120RON",
+      "description": "Sefa promotie program studii UMF, ofer meditatii de specialitate la biologie, biochimie, chimie, imunologie, genetica, hematologie, neurostiinte si oricare alta materie de profil.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/biology3.jpg",
+      "key": "biologie"
+    },
+    {
+      "id": 26,
+      "name": "Cristian",
+      "subject": "Biologie",
+      "price": "80RON",
+      "description": "Student in anul V in cadrul UMF Iasi, specializarea Medicina Generala ofer meditatii la biologie pentru pregatirea examenului de admitere la UMF.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/biology4.jpg",
+      "key": "biologie"
+    },
+    {
+      "id": 27,
+      "name": "Matei",
+      "subject": "Biologie",
+      "price": "70RON",
+      "description": "Student in anul IV in cadrul UMF Bacau, specializarea Medicina Generala ofer meditatii la biologie pentru pregatirea examenului de admitere la UMF.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/biology5.jpg",
+      "key": "biologie"
+    },
+    {
+      "id": 28,
+      "name": "Ionut",
+      "subject": "Chimie",
+      "price": "70RON",
+      "description": "Ofer meditatii la chimie pentru clasele VII,VIII,pentru liceu și admitere umf.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/chemistry1.jpg",
+      "key": "chimie"
+    },
+    {
+      "id": 29,
+      "name": "Lucian",
+      "subject": "Chimie",
+      "price": "70RON",
+      "description": "Ofer pregătire la disciplina chimie organică, mai exact ofer meditații pentru elevii claselor a 10a si a 11a, dar și pentru elevii ce se pregătesc de susținerea bacalaureatului la chimie organică.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/chemistry2.jpg",
+      "key": "chimie"
+    },
+    {
+      "id": 30,
+      "name": "Andreea",
+      "subject": "Chimie",
+      "price": "75RON",
+      "description": "Ofer pregătire la disciplina chimie organică, pentru elevii care se pregătesc de susținerea bacalaureatului la chimie organică.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/chemistry3.jpg",
+      "key": "chimie"
+    },
+    {
+      "id": 31,
+      "name": "Ionela",
+      "subject": "Chimie",
+      "price": "65RON",
+      "description": "Ofer pregătire la disciplina chimie anorganică, pentru elevii care se pregătesc de susținerea bacalaureatului la chimie anorganică.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/chemistry4.jpg",
+      "key": "chimie"
+    },
+    {
+      "id": 31,
+      "name": "Carmen",
+      "subject": "Chimie",
+      "price": "95RON",
+      "description": "Ofer pregătire la disciplina chimie organică si anorganica, pentru elevii care se pregătesc de susținerea bacalaureatului la aceasta materie.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/chemistry5.jpg",
+      "key": "chimie"
+    },
+    {
+      "id": 32,
+      "name": "Alina",
+      "subject": "Chimie",
+      "price": "95RON",
+      "description": "Studenta in cadrul UMF, ofer pregătire la disciplina chimie organică si anorganica.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/chemistry6.jpg",
+      "key": "chimie"
+    },
+    {
+      "id": 33,
+      "name": "Anastasia",
+      "subject": "Fizica",
+      "price": "75RON",
+      "description": "Pregătire pentru bacalaureat, profil real, dar și meditații pe parcursul anului școlar.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/physics1.jpg",
+      "key": "fizica"
+    },
+    {
+      "id": 34,
+      "name": "Alexandru",
+      "subject": "Fizica",
+      "price": "65RON",
+      "description": "Profesor peste 25 ani experienta in meditatii. Pregatire numai individuala cu scopul de a atinge 100% obiectivele propuse.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/physics2.jpg",
+      "key": "fizica"
+    },
+    {
+      "id": 35,
+      "name": "Alina",
+      "subject": "Fizica",
+      "price": "95RON",
+      "description": "Profesor peste 15 ani experienta in meditatii. Imi doresc sa ofer ajutor eleviilor pentru a-si dezvolta gandirea si rationamentul.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/physics3.jpg",
+      "key": "fizica"
+    },
+    {
+      "id": 36,
+      "name": "Florin",
+      "subject": "Fizica",
+      "price": "65RON",
+      "description": "Student cu rezultate notabile la fizică de-a lungul claselor 6-12, ofer meditații la fizică. ",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/physics4.jpg",
+      "key": "fizica"
+    },
+    {
+      "id": 37,
+      "name": "Bogdan",
+      "subject": "Fizica",
+      "price": "70RON",
+      "description": "Fost olimpic la fizica, pregatesc individual la fizica elevi de orice nivel, de la scoala generala, la pregatire pentru BAC.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/physics5.jpg",
+      "key": "fizica"
+    },
+    {
+      "id": 38,
+      "name": "Costin",
+      "subject": "Informatica",
+      "price": "150RON",
+      "description": "Sunt student în anul III al Facultății de Matematică și Informatică din București, domeniul Informatică, admis ca olimpic, și pot să te ajut să înțelegi concepte de algoritmică.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/IT1.jpg",
+      "key": "informatica"
+    },
+    {
+      "id": 39,
+      "name": "Victor",
+      "subject": "Informatica",
+      "price": "150RON",
+      "description": "Absolvent a Facultatii de Automatica si Calculatore, inginer cu o eperienta in domeniu de 2 ani. Ofer meditatii la Informatica. Va pot ajuta cu bazele programarii pana la un nivel mediu spre avansat.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/IT2.jpg",
+      "key": "informatica"
+    },
+    {
+      "id": 40,
+      "name": "Teodor",
+      "subject": "Informatica",
+      "price": "200RON",
+      "description": "Ofer pregătire la informatică elevilor din ciclul gimnazial, cât și liceal.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/IT3.jpg",
+      "key": "informatica"
+    },
+    {
+      "id": 41,
+      "name": "Ramona",
+      "subject": "Informatica",
+      "price": "100RON",
+      "description": "Predau programare in limbajele C si C++ pentru toate nivelele scolare. Sunt rabdator si ofer explicatii pe intelesul celor care vor sa invete.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/IT4.jpg",
+      "key": "informatica"
+    },
+    {
+      "id": 42,
+      "name": "Anemona",
+      "subject": "Informatica",
+      "price": "140RON",
+      "description": "Sunt studentă la Academia de Studii Economice din Bucuresti. Vă pot ajuta cu meditații la Informatică pentru proba de Bacalaureat, dar și pentru clasele 9-12 și școala generală.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/IT5.jpg",
+      "key": "informatica"
+    },
+    {
+      "id": 43,
+      "name": "Bogdan",
+      "subject": "Geografie",
+      "price": "50RON",
+      "description": "Olimpic național în liceu, ofer pregătire la georgafie la nivel de performanță sau admitere/bacalaureat.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/geography1.jpg",
+      "key": "geografie"
+    },
+    {
+      "id": 44,
+      "name": "Alina",
+      "subject": "Geografie",
+      "price": "60RON",
+      "description": "Ofer meditatii la georgafie pentru orice nivel de cunostinte necesare.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/geography2.jpg",
+      "key": "geografie"
+    },
+    {
+      "id": 45,
+      "name": "Catalin",
+      "subject": "Geografie",
+      "price": "65RON",
+      "description": "Ofer meditatii la georgafie, pentru admiterea la facultate sau bacalaureat.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/geography3.jpg",
+      "key": "geografie"
+    },
+    {
+      "id": 46,
+      "name": "Valentina",
+      "subject": "Geografie",
+      "price": "75RON",
+      "description": "Ofer meditatii la georgafie, pentru admiterea la facultate sau bacalaureat.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/geography4.jpg",
+      "key": "geografie"
+    },
+    {
+      "id": 47,
+      "name": "Vlad",
+      "subject": "Geografie",
+      "price": "80RON",
+      "description": "Ofer meditatii la georgafie, fiind fost olimpic la georgrafie.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/geography5.jpg",
+      "key": "geografie"
+    },
+    {
+      "id": 48,
+      "name": "Andrei",
+      "subject": "Istorie",
+      "price": "65RON",
+      "description": "Ofer meditații individuale la ISTORIE, PSIHOLOGIE si SOCIOLOGIE pentru Bacalaureat și admitere la facultate.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/history1.jpg",
+      "key": "istorie"
+    },
+    {
+      "id": 49,
+      "name": "Denisa",
+      "subject": "Istorie",
+      "price": "75RON",
+      "description": "Profesor, absolventă a examenului de Bacalaureat cu media 10, absolventă a Universității din București, ofer pregătire pentru examenul de BACALAUREAT.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h si jumatate.",
+      "img": "assets/teachers/history2.jpg",
+      "key": "istorie"
+    },
+    {
+      "id": 50,
+      "name": "Adina",
+      "subject": "Istorie",
+      "price": "70RON",
+      "description": "Absolvent al Facultății de Istorie în cadrul Universității din București și licențiat cu 10, ofer pregătire atât pentru susținerea examenului de Bacalaureat, cât și pentru admiterea la Academia de Politie.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/history3.jpg",
+      "key": "istorie"
+    },
+    {
+      "id": 51,
+      "name": "Maria",
+      "subject": "Istorie",
+      "price": "65RON",
+      "description": "Pregătesc cu drag elevi de școala generală cât și de liceu, la materii precum Istorie, Geografie, Limba și Literatura Română.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 1h.",
+      "img": "assets/teachers/history4.jpg",
+      "key": "istorie"
+    },
+    {
+      "id": 52,
+      "name": "Catalin",
+      "subject": "Istorie",
+      "price": "65RON",
+      "description": "Profesor cu experienta, meditez istorie si geografie pentru pregatire suplimentara, orice nivel de studiu.",
+      "details": "Meditatiile se desfasoara la domiciliul meditatorului sau online, iar durata unei sedinte este de 2h.",
+      "img": "assets/teachers/history5.jpg",
+      "key": "istorie"
+    }
+  ],
+  "subjects": [
+    {
+      "title": "Matematica",
+      "url": "assets/images/Matematica4.jpg",
+      "subjectKey": "matematica"
+    },
+    {
+      "title": "Limba si Literatura Romana",
+      "url": "assets/images/rem.png",
+      "subjectKey": "romana"
+    },
+    {
+      "title": "Limba Engleza",
+      "url": "assets/images/England.jpg",
+      "subjectKey": "engleza"
+    },
+    {
+      "title": "Limba Franceza",
+      "url": "assets/images/fran.png",
+      "subjectKey": "franceza"
+    },
+    {
+      "title": "Informatica",
+      "url": "assets/images/infoo.png",
+      "subjectKey": "informatica"
+    },
+    {
+      "title": "Chimie",
+      "url": "assets/images/ch.png",
+      "subjectKey": "chimie"
+    },
+    {
+      "title": "Biologie",
+      "url": "assets/images/bio.png",
+      "subjectKey": "biologie"
+    },
+    {
+      "title": "Geografie",
+      "url": "assets/images/geo.png",
+      "subjectKey": "geografie"
+    },
+    {
+      "title": "Istorie",
+      "url": "assets/images/ist.png",
+      "subjectKey": "istorie"
+    },
+    {
+      "title": "Fizica",
+      "url": "assets/images/fiz.png",
+      "subjectKey": "fizica"
+    }
+  ],
+  "users": [
+    {
+      "id": 3,
+      "username": "Ana Petrescu",
+      "email": "ana.petrescu@yahoo.com",
+      "password": "anapetrescu"
+    },
+    {
+      "id": 4,
+      "username": "Andrei Matei",
+      "email": "andrei.matei@yahoo.com",
+      "password": "andreimatei"
+    },
+    {
+      "id": 5,
+      "username": "Alexandru George",
+      "email": "alexandru.george@yahoo.com",
+      "password": "alexandru.george"
+    },
+    {
+      "username": "Georgiana Barbu",
+      "email": "georgiana.barbu@yahoo.com",
+      "password": "georgianabarbu",
+      "id": "3961639217189238"
+    }
+  ]
+}

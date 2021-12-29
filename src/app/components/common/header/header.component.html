@@ -1,0 +1,55 @@
+<nav
+  class="navbar navbar-expand-lg navbar-light main-header header-container"
+  style="background-color: #d4a171"
+>
+  <div class="container-fluid main-header">
+    <a class="navbar-brand" routerLink="home"
+      ><img src="/assets/images/scroll1.png" class="logo"
+    /></a>
+    <h3 routerLink="home">Meditatii.ro</h3>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse main-header" id="navbarNavAltMarkup">
+      <div class="navbar-nav main-header">
+        <h6 *ngIf="loggedUsername">{{ loggedUsername }}</h6>
+        <a class="nav-link" routerLink="anunturileMele" *ngIf="loggedUsername">
+          📜 Anunturile mele</a
+        >
+        <a
+          class="nav-link active"
+          aria-current="page"
+          routerLink="new-add"
+          *ngIf="loggedUsername"
+        >
+          <img src="/assets/images/plus.png" alt="" class="plus" /> Adaugare
+          anunt</a
+        >
+        <a class="nav-link" routerLink="login" *ngIf="!loggedUsername">
+          ➤ Autentificare</a
+        >
+        <a class="nav-link" routerLink="sign-in" *ngIf="!loggedUsername">
+          🖊 Inregistrare</a
+        >
+
+        <a
+          class="nav-link active"
+          aria-current="page"
+          *ngIf="loggedUsername"
+          (click)="logout()"
+        >
+          <img src="/assets/images/plus.png" alt="" class="plus" />
+          Delogare</a
+        >
+      </div>
+    </div>
+  </div>
+</nav>

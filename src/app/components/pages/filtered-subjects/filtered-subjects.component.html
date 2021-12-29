@@ -1,0 +1,17 @@
+<div>
+  <div class="container-fluid">
+    <button class="button" [routerLink]="['/home']">← Back</button>
+    <div class="cards-container cards row">
+      <ng-container *ngFor="let subject of filterSubjects">
+        <app-tutoring-card
+          class="col-4"
+          id="card"
+          [selectedTutoring]="subject"
+          [editMode]="userId !== ''"
+          (editEvent)="editPrivateLesson(subject)"
+          (deleteEvent)="deletePrivateLesson(subject)"
+        ></app-tutoring-card>
+      </ng-container>
+    </div>
+  </div>
+</div>

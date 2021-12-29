@@ -1,0 +1,20 @@
+<div class="card mb-3" style="max-width: 540px">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{ selectedTutoring.img }}" class="card-img-top" alt="..." />
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ selectedTutoring.name }}</h5>
+        <h3 class="card-text">{{ selectedTutoring.subject }}</h3>
+        <p class="card-text">{{ selectedTutoring.details }}</p>
+        <p class="card-text">
+          {{ selectedTutoring.price }}
+        </p>
+      </div>
+      <a (click)="onDelete()" *ngIf="editMode">❌ Delete</a>
+      <a (click)="onEdit()" *ngIf="editMode">🖊 Edit</a>
+    </div>
+  </div>
+</div>

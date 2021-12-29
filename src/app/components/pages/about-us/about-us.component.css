@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Slab:wght@300&family=Zen+Old+Mincho&display=swap");
+.container {
+  margin-top: 120px;
+  margin-bottom: 200px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title {
+  text-decoration: underline;
+  font-family: "Zen Old Mincho", serif;
+}
+.card-body {
+  font-family: "Zen Old Mincho", serif;
+}
+
+.button {
+  background-color: #cca87f;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: #dad2c7;
+  color: white;
+}

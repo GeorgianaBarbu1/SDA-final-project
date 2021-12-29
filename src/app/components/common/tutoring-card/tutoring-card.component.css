@@ -1,0 +1,17 @@
+.card {
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  box-shadow: inset 0px -10px 27px -8px black;
+
+  cursor: pointer;
+}
+img {
+  border-radius: 20px;
+  padding: 10px;
+}
+a {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

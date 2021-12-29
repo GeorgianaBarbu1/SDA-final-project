@@ -1,0 +1,61 @@
+<img src="/assets/images/login.jpg" alt="" class="background-login" />
+<div class="container" [formGroup]="form">
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>Adaugare anunt</h3>
+
+      <label for="name">Nume</label>
+      <input
+        type="text"
+        name="name"
+        placeholder="Numele complet"
+        id="name"
+        formControlName="name"
+      />
+      <br />
+      <label>Materie</label>
+      <select formControlName="subject">
+        <option *ngFor="let subject of subjectsData" [value]="subject.title">
+          {{ subject.title }}
+        </option>
+      </select>
+
+      <br />
+
+      <label for="subject">Pret</label>
+      <input
+        type="text"
+        name="subject"
+        placeholder="Pret"
+        formControlName="price"
+      /><br />
+      <label for="price">Detalii</label>
+      <input
+        type="text"
+        name="details"
+        placeholder="Durata unei sedinte"
+        formControlName="details"
+      /><br />
+      <label for="anunt">Anuntul dumneavoastra </label>
+
+      <textarea cols="40" rows="5" formControlName="description"></textarea>
+      <label for="img">Imaginea anuntului</label> <br />
+      <br />
+      <input type="file" id="input-image" (change)="fileEvent($event)" /><br />
+    </div>
+    <button
+      class="btn btn-primary"
+      (click)="submitForm()"
+      *ngIf="!selectedPrivateLesson"
+    >
+      Adaugare
+    </button>
+    <button
+      class="btn btn-primary"
+      (click)="updateForm()"
+      *ngIf="selectedPrivateLesson"
+    >
+      Modificare anunt
+    </button>
+  </div>
+</div>

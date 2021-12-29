@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Zen+Old+Mincho&display=swap");
+
+.button {
+  background-color: #cca87f;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: #dad2c7;
+  color: white;
+}
